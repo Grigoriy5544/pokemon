@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Pokemon Classic";
+    src: url("./pokemon-classic.ttf");
+
+}
+@font-face { 
+    font-family: "Inter";
+    src: url("./Inter-Medium.eot");
+    src: url("./Inter-Medium.woff") format("woff"),
+    url("./Inter-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face { 
+    font-family: "Inter";
+    src: url("./Inter-Medium.eot");
+    src: url("./Inter-Medium.woff") format("woff"),
+    url("./Inter-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}

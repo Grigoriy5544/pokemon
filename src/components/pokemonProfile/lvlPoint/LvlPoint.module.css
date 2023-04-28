@@ -1,0 +1,12 @@
+.point {
+    width: 21px;
+    height: 6px;
+    background: #222222;
+    opacity: 0.1;
+    border-radius: 100px;
+}
+
+.active {
+    background: #ED6F2D;
+    opacity: 1.0 !important;
+}

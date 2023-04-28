@@ -1,0 +1,425 @@
+.profile {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1504px;
+    margin: 0 auto;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.btn {
+    width: fit-content;
+    height: 46px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btn > a {
+    padding: 10px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.img {
+    margin-left: 163px;
+    width: 540px;
+}
+
+.info {
+    width: 403px;
+    height: 454px;
+}
+
+.grey {
+    color: #222222;
+    opacity: 0.5;
+}
+
+.info__name > p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #222222;
+    opacity: 0.5;
+}
+
+.wrapper {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.info__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 403px;
+    max-height: 468px;
+}
+
+.pokemonName {
+    margin: 0;
+    font-family: 'Pokemon Classic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 62px;
+    color: #222222;
+    display: inline;
+}
+
+.pokemon__info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+    width: 343px;
+    height: 88px;
+    background: #FFFFFF;
+    border-radius: 20px
+}
+
+.pokemon__info > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pokemon__info li {
+    color: #222222;
+}
+
+.lvlStrip {
+    display: flex;
+    gap: 3px;
+}
+
+.coach__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 363px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.coach__info > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 251px;
+    height: 68px;
+}
+
+.coach__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 14px;
+    width: 167px;
+    height: 56px;
+}
+
+.coach__wrapper p {
+    margin: 0;
+}
+
+.coach__wrapper div {
+    display: flex;
+    gap: 14px;
+}
+
+.coach__wrapper div span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.coach__avatar {
+    margin-right: 16px;
+    border-radius: 16px;
+    width: 68px;
+}
+
+.coach__lvl {
+    width: 72px;
+    height: 14px;
+    padding: 6px 10px;
+
+    border-radius: 900px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.coach__lvl.blue {
+    border: 1px solid #68B7FF;
+    color: #68B7FF;
+}
+
+.coach__lvl.red {
+    border: 1px solid #ED2D2D;
+    color: #ED2D2D;
+}
+
+.battles__history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 363px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.battles__history div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 160px;
+    height: 24px;
+}
+
+.battles {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: scroll;
+    height: 330px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    cursor:grab !important;
+    width: 20px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    cursor:grab !important;
+}
+::-webkit-scrollbar-thumb {
+    cursor:grab !important;
+    background: rgba(237, 111, 45, 0.5);
+    border-radius: 10px;
+    border: 6px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+}
+
+.battle {
+    width: 362px;
+    min-height: 115px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    padding: 25px 20px 16px 20px
+}
+
+.battle .date {
+    padding: 5px 10px;
+    text-align: center;
+    position: absolute;
+    width: 46px;
+    height: 15px;
+    top: -14px;
+    left: 163px;
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    border-radius: 100px;
+    color: grey;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.battle__icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.battle__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.battle__we div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.battle__img {
+    width: 60px;
+    height: 54px;
+    border-radius: 10px
+}
+
+.battle__we div div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.battle__weName {
+    margin: 0;
+}
+
+.battle__weAttack {
+    display: flex;
+    padding: 6px 10px;
+    width: 65px;
+    height: 14px;
+    border: 1px solid #BB2DED;
+    border-radius: 900px;
+    line-height: 14px;
+    color: #BB2DED;
+}
+
+
+.battle__opponent div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.battle__opponent div div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+.battle__opponentName {
+    margin: 0;
+    color: rgba(34, 34, 34, 0.5);
+}
+
+.battle__opponentAttack {
+    display: flex;
+    padding: 6px 10px;
+    width: 65px;
+    height: 14px;
+    border: 1px solid rgba(34, 34, 34, 0.5);
+    border-radius: 900px;
+    line-height: 14px;
+    color: rgba(34, 34, 34, 0.5);
+}
+
+
+.battle__result {
+    position: absolute;
+    width: 403px;
+    height: 37px;
+    left: 0;
+    top: 120px;
+    border-radius: 4px 4px 20px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle__result.win {
+    background: #5EBC00;
+}
+
+.battle__result.lose {
+    background: #ED2D2D;
+}
+
+
+@media screen and (max-width: 1580px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .container {
+        max-width: 896px;
+    }
+
+    .img {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .profile {
+        height: 80vh;
+        width: 100%;
+    }
+    .container {
+        padding: 0 12px;
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        left: 12px;
+        border-radius: 100px;
+    }
+
+    .img {
+        width: 258px;
+        height: 226px;
+    }
+
+    .pokemonName {
+        align-items: center;
+    }
+}

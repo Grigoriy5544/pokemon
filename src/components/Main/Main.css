@@ -1,0 +1,26 @@
+.content {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card__link {
+    text-decoration: none;
+    position: absolute;
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 960px) {
+    .content {
+        padding-top: 16px;
+        padding-bottom: 160px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .content {
+        padding-bottom: 100px;
+    }
+}

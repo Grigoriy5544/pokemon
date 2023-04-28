@@ -1,0 +1,20 @@
+.popup-filter {
+    display: none;
+}
+.popup-filter_type_trainer {
+    width: 299px;
+    min-height: 178px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 26px 30px;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 2;
+}
+.popup__subtitle_type_trainer {
+    margin-bottom: 14px;
+}
